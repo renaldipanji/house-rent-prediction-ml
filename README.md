@@ -7,17 +7,24 @@ Proyek ini adalah proyek pertama predictive analytics untuk memenuhi submission 
 ## Domain Proyek
 
 ### **Latar Belakang**
-Tempat tinggal, seperti rumah atau apartemen, adalah kebutuhan utama manusia untuk melindungi dan menetap. Nilai tempat tinggal ditentukan oleh berbagai faktor, seperti lokasi, ukuran, jumlah kamar, jumlah kamar mandi, perabotan, dan fitur lainnya.
+Tempat tinggal, seperti rumah atau apartemen, adalah kebutuhan utama manusia untuk melindungi dan menetap. Nilai tempat tinggal ditentukan oleh berbagai faktor, seperti lokasi, ukuran, jumlah kamar, jumlah kamar mandi, perabotan, dan fitur lainnya [1].
 
 ![dataset-cover (4)](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/94737eba-73a2-4c3b-888e-2c6c599bb150)
 
 [Referensi Gambar](https://storage.googleapis.com/kaggle-datasets-images/2644747/4525552/2b4663622a47936b6984513d9e377964/dataset-cover.png?t=2022-11-16-19-36-24)
 
-Harga rumah biasanya mencerminkan nilai yang dimiliki oleh properti tersebut. Namun, harga rumah tidak selalu dapat diprediksi dengan akurat secara manual. Oleh karena itu, perusahaan penyewaan perlu mengurangi ketidakpastian dengan membangun sistem prediksi menggunakan machine learning. Tujuan dari sistem ini adalah dapat memperkirakan harga sewa yang wajar untuk setiap karakteristik rumah.
+Harga rumah biasanya mencerminkan nilai yang dimiliki oleh properti tersebut. Namun, harga rumah tidak selalu dapat diprediksi dengan akurat secara manual. Oleh karena itu, perusahaan penyewaan perlu mengurangi ketidakpastian dengan membangun sistem prediksi menggunakan machine learning [3]. Tujuan dari sistem ini adalah dapat memperkirakan harga sewa yang wajar untuk setiap karakteristik rumah.
 
-Melalui penelitian ini, diharapkan model machine learning mampu memprediksi harga sewa rumah yang sesuai dengan harga pasar. Prediksi ini kemudian akan menjadi panduan bagi perusahaan dalam menentukan harga sewa yang dapat menghasilkan keuntungan.
+Melalui penelitian ini, diharapkan model machine learning mampu memprediksi harga sewa rumah yang sesuai dengan harga pasar. Prediksi ini kemudian akan menjadi panduan bagi perusahaan dalam menentukan harga sewa yang dapat menghasilkan keuntungan [2].
 
-Referensi : https://ejournal.bsi.ac.id/ejurnal/index.php/ji/article/view/9036
+Dengan menggunakan model prediksi harga sewa, perusahaan penyewaan properti dapat mengoptimalkan keputusan bisnis mereka. Berikut beberapa contoh skenario penggunaan model ini oleh perusahaan penyewaan properti:
+
+1. Penentuan Harga Sewa yang Kompetitif: Model machine learning dapat membantu perusahaan dalam menentukan harga sewa yang kompetitif berdasarkan karakteristik rumah. Dengan memperhitungkan faktor-faktor seperti lokasi, ukuran, dan fitur-fitur lainnya, perusahaan dapat menentukan harga yang sesuai dengan nilai pasar dan mengoptimalkan pendapatan mereka.
+2. Identifikasi Potensi Profitabilitas: Dengan menggunakan model prediksi, perusahaan dapat mengidentifikasi properti-properti dengan potensi profitabilitas yang tinggi. Model dapat membantu mengidentifikasi karakteristik yang berkontribusi terhadap harga sewa yang lebih tinggi, seperti lokasi yang strategis atau fitur-fitur yang dicari oleh penyewa. Hal ini memungkinkan perusahaan untuk fokus pada properti-properti yang memiliki potensi pendapatan yang lebih tinggi.
+3. Pengambilan Keputusan Investasi: Model prediksi harga sewa dapat digunakan sebagai alat bantu dalam pengambilan keputusan investasi oleh perusahaan penyewaan properti. Dengan memprediksi harga sewa di masa depan berdasarkan karakteristik rumah, perusahaan dapat mengevaluasi potensi pengembalian investasi pada properti baru atau pengambilan keputusan terkait pembelian atau penjualan properti.
+4. Penyesuaian Strategi Pemasaran: Model prediksi dapat memberikan wawasan tentang faktor-faktor yang paling berpengaruh terhadap harga sewa. Perusahaan dapat menggunakan informasi ini untuk menyusun strategi pemasaran yang lebih efektif, seperti menyoroti fitur-fitur yang paling dicari oleh penyewa atau menyesuaikan kampanye pemasaran dengan preferensi target pasar.
+
+Dengan menggunakan model machine learning untuk memprediksi harga sewa, perusahaan penyewaan properti dapat memperoleh keuntungan yang signifikan, termasuk penentuan harga yang optimal, identifikasi properti yang potensial menghasilkan profit, pengambilan keputusan investasi yang lebih baik, dan penyesuaian strategi pemasaran yang efektif.
 
 # Business Understanding
 Proyek ini ditujukan untuk perusahaan yang memiliki model bisnis sebagai berikut:
@@ -25,6 +32,16 @@ Proyek ini ditujukan untuk perusahaan yang memiliki model bisnis sebagai berikut
 * Perusahaan memiliki atau mengakuisisi properti rumah dan apartemen, dan kemudian menyewakannya kepada konsumen.
 
 * Perusahaan menyediakan layanan konsultasi harga sewa rumah dan apartemen kepada konsumen
+
+Model machine learning yang dikembangkan dalam proyek ini dapat memberikan banyak manfaat bagi perusahaan dalam menentukan harga sewa yang lebih optimal dan berkontribusi pada peningkatan keuntungan. Berikut beberapa contoh bagaimana model ini dapat membantu perusahaan:
+
+1. Optimasi Harga Sewa: Model prediksi harga sewa membantu perusahaan mengoptimalkan harga sewa untuk setiap properti berdasarkan karakteristiknya. Misalnya, properti dengan lokasi strategis dan fitur premium diberi harga lebih tinggi, sedangkan properti dengan karakteristik sederhana diberi harga lebih rendah. Dengan demikian, perusahaan dapat memaksimalkan pendapatan dan menghindari kesalahan penentuan harga.
+
+2. Identifikasi Potensi Profitabilitas: Model prediksi harga sewa membantu perusahaan mengidentifikasi properti dengan potensi profitabilitas tinggi. Misalnya, properti dengan luas yang lebih besar, jumlah kamar yang banyak, dan fitur-fitur premium memiliki potensi untuk menghasilkan harga sewa yang lebih tinggi. Perusahaan dapat fokus pada pengembangan atau akuisisi properti dengan karakteristik tersebut untuk meningkatkan profitabilitas mereka.
+
+3. Model prediksi harga sewa membantu perusahaan dalam menyesuaikan strategi pemasaran mereka. Misalnya, jika lokasi dan keberadaan fasilitas umum berpengaruh signifikan terhadap harga sewa, perusahaan dapat menekankan keunggulan lokasi tersebut dalam kampanye pemasaran. Hal ini akan menarik penyewa yang mencari properti dengan akses mudah ke fasilitas tersebut, meningkatkan tingkat okupansi, dan meningkatkan keuntungan perusahaan.
+
+Dengan menggunakan model machine learning untuk memprediksi harga sewa, perusahaan dapat mengambil keputusan yang lebih cerdas dan efektif dalam menentukan harga sewa, mengelola portofolio properti, dan merancang strategi pemasaran. Hal ini akan berkontribusi pada peningkatan keuntungan perusahaan dan membantu mereka mempertahankan posisi yang kompetitif di pasar penyewaan properti.
 
 ### **Problem Statements**
 
@@ -83,33 +100,47 @@ Fitur kategorik City, Furnishing Status, dan Tenant Preferred memiliki sebaran s
 
   ![City](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/276b14eb-60ae-4ce8-9e5d-a59d3c3bd361)
 
+  **Gambar 1. Jumlah nilai unik pada fitur city**
+
 * Fitur Furnishing Status
   
   ![Furnishing Status](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/1eb2af4e-2c2d-4f4c-89e5-a3e41e2c9e39)
+
+  **Gambar 2. Jumlah nilai unik pada fitur furnishing status**
 
 * Fitur Tenant Preferred
   
   ![Tenant](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/26a3f0b7-3794-46dc-b9d3-c9df80593ba3)
 
+  **Gambar 3. Jumlah nilai unik pada fitur tenant preferred**
+  
 Untuk Fitur dengan sample yang tidak merata sebagai berikut :
 
 * Area Type
   
   ![Area Type](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/987d7684-d7bb-45e9-983d-3d160efbcb5b)
 
+  **Gambar 4. Jumlah nilai unik pada fitur area type**
+
   Hanya ada 2 data dari Built Area pada fitur Area Type. Untuk menghindari data dengan dimensi tinggi (high dimensional data), kedua data ini akan dihapus.
 
 * Floor dan Area Locality
   
   ![Floor](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/7099ea45-46da-430f-a95a-730035133dec)
-  
+
+  **Gambar 5. Jumlah nilai unik pada fitur floor**
+
   ![Area Locality](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/bd5eed51-f6d8-4a7d-bdea-ebd42e2baa0d)
 
+  **Gambar 6. Jumlah nilai unik pada fitur area locality**
+  
   Fitur Floor dan Area Locality memiliki banyak nilai unik yang menyebabkan dimensi data menjadi tinggi. Untuk menghindari data dengan dimensi tinggi (high dimensional data), kedua fitur ini akan dihapus.
 
 ### **Analisis sebaran pada setiap fitur numerik**
 
 ![visualisasi data fitur numerik](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/cfb5b474-bf5d-4eb9-8465-a9f4bdfa46ff)
+
+**Gambar 7. Visualisasi Sebaran data pada fitur numerik**
 
 Berikut analisis dari grafik di atas :
 * Sebagian besar rumah memiliki 1 sampai 3 BHK dan 1 sampai 3 kamar mandi.
@@ -128,12 +159,17 @@ Multivariate Analysis menunjukkan hubungan antara dua atau lebih fitur dalam dat
 
   ![outlier sqft](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/b75dfda7-2b94-4f50-8db6-5aaae9f4f8bc)
 
+  **Gambar 8. Deskripsi nilai fitur price per sqft**
+
   Dari analisis tersebut, terlihat bahwa harga 571 per sqft sangat rendah dan harga 1400000 per sqft sangat tinggi. Oleh karena itu,   dilakukan penghapusan outlier pada harga per sqft menggunakan metode mean dan satu standar deviasi, yang dikelompokkan berdasarkan kota. Hal ini menyebabkan pengurangan jumlah sampel sebesar 497.
 
 * Fitur Bathroom dan BHK akan dianalisis, dan dilakukan penghapusan outlier pada fitur Bathroom. Hal ini karena tidak biasa bagi rumah dengan 2 BHK memiliki 4 kamar mandi. Kami akan menetapkan batas bahwa jumlah kamar mandi tidak boleh melebihi jumlah BHK + 2. Sebagai hasilnya, akan ada pengurangan jumlah sampel sebesar 3.
 
 * Melihat kolerasi antara semua fitur numerik
   ![Korelasi Fitur Numerik](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/19374161-877e-46f2-9980-a45d4f97854d)
+
+  **Gambar 9. Korelasi fitur numerik**
+
   Dari analisis yang dilakukan, terlihat bahwa fitur BHK, Size, dan Bathroom tidak memiliki korelasi yang signifikan dengan fitur target (Rent). Hal ini mungkin disebabkan oleh kurangnya data dalam penelitian ini. Namun, fitur BHK dan Bathroom tetap memiliki korelasi yang signifikan dengan fitur Size. Hal ini sesuai dengan harapan setelah dilakukannya penghapusan outlier sebelumnya.
 
 ### **Analisis fitur kategorik**
@@ -143,24 +179,32 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 
   ![Fitur Area Type](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/b065ece8-7c63-4fe1-92cd-cd67d0bbbf08)
 
+  **Gambar 10. Korelasi fitur area type**
+  
   Fitur Area Type memiliki pengaruh yang kecil terhadap rata-rata harga sewa.
   
 * Fitur City
   
   ![Fitur City](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/129cee6f-6f55-489f-a5ce-2805c451ec53)
 
+  **Gambar 11. Korelasi fitur city**
+  
   Dari analisis tersebut, terlihat bahwa fitur City memiliki pengaruh yang cukup besar terhadap rata-rata harga sewa, terutama jika rumah berada di kota Mumbai. Faktanya, sebaran harga rumah mencapai tingkat tertinggi di kota Mumbai. Mumbai memang dikenal sebagai kota yang memiliki biaya hidup yang tinggi di India, diikuti oleh Delhi. Ini menunjukkan bahwa faktor lokasi, terutama kota tempat rumah berada, memiliki dampak signifikan pada harga sewa rumah.
 
 * Fitur Furnishing Status
    
   ![Fitur Furnishing Status](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/14c09152-12e8-4bd9-84f4-3b30f4de752f)
 
+  **Gambar 12. Korelasi fitur furnishing status**
+  
   Dari analisis yang dilakukan, terlihat bahwa fitur Furnishing Status memiliki pengaruh yang cukup besar terhadap rata-rata harga sewa. Hal ini wajar, karena rumah yang dilengkapi dengan perabotan lengkap umumnya akan diberi harga sewa yang lebih tinggi daripada rumah yang tidak dilengkapi perabotan. Furnishing Status menjadi salah satu faktor penting yang memengaruhi penentuan harga sewa rumah, karena keberadaan perabotan dapat memberikan nilai tambah dan kenyamanan bagi penyewa.
 
 * Tenant Preferred
 
   ![Fitur Tenant](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/f4616bf4-cfa5-4005-a627-02068d5d49b2)
 
+  **Gambar 13. Korelasi fitur tenant preferred**
+  
   Dari analisis yang dilakukan, terlihat bahwa fitur Tenant Preferred memiliki pengaruh yang cukup signifikan terhadap rata-rata harga sewa. Dari grafik yang ditampilkan, terlihat bahwa rumah yang sangat disarankan untuk disewa oleh keluarga memiliki rata-rata harga sewa yang lebih tinggi dibandingkan dengan preferensi penyewa lainnya. Hal ini dapat disebabkan oleh faktor-faktor seperti ukuran rumah yang lebih besar, kebutuhan ruang yang lebih luas, atau fasilitas tambahan yang cocok untuk kebutuhan keluarga. Oleh karena itu, Tenant Preferred menjadi faktor penting yang memengaruhi penentuan harga sewa rumah.
 
 
@@ -196,9 +240,15 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 
 
 ## **Modeling**
-* Algoritma Penelitian ini melakukan pemodelan dengan 3 algoritma, yaitu K-Nearest Neighbour, Random Forest, dan Adaboost.
+* Algoritma Penelitian ini melakukan pemodelan dengan 3 algoritma, yaitu K-Nearest Neighbour, Random Forest, dan Adaboost. Ketiga algoritma (K-Nearest Neighbors, Random Forest, dan Adaboost) dipilih karena keunggulan masing-masing dalam konteks prediksi harga sewa rumah.
+
+1. K-Nearest Neighbors (KNN): Algoritma KNN dipilih karena kemampuannya dalam melakukan prediksi berdasarkan jarak terdekat ke tetangga-tetangga terdekat dalam ruang fitur. Dalam konteks prediksi harga sewa rumah, KNN dapat memberikan perkiraan yang baik berdasarkan rumah-rumah dengan karakteristik serupa. Dalam proyek ini, KNN digunakan untuk membandingkan jarak antara satu sampel dengan sampel pelatihan lainnya dan memilih sejumlah k tetangga terdekat untuk melakukan prediksi harga sewa.
+
+2. Random Forest: Algoritma Random Forest dipilih karena kemampuannya dalam mengatasi masalah overfitting dan meningkatkan akurasi prediksi. Dalam konteks prediksi harga sewa rumah, Random Forest membangun banyak pohon keputusan secara paralel dan menggabungkan hasil prediksi dari setiap pohon untuk menghasilkan prediksi akhir. Ini membantu mengatasi variabilitas dan kecenderungan overfitting yang mungkin terjadi dengan pohon keputusan tunggal. Dalam proyek ini, Random Forest digunakan untuk membangun ensemble dari banyak pohon keputusan dalam upaya untuk memprediksi harga sewa rumah dengan lebih akurat.
+
+3. Adaboost: Algoritma Adaboost dipilih karena kemampuannya untuk menggabungkan beberapa model sederhana menjadi model yang lebih kuat. Dalam konteks prediksi harga sewa rumah, Adaboost membangun rangkaian model sederhana secara berurutan dan mengurangi bias kesalahan dari model sebelumnya dengan memberikan penekanan lebih pada sampel yang sulit diprediksi. Dalam proyek ini, Adaboost digunakan untuk membangun rangkaian model sederhana (decision stumps) secara berurutan untuk memprediksi harga sewa rumah.
    
-    * Pada proyek ini, model K-Nearest Neighbors (KNN) digunakan dengan menggunakan kelas KNeighborsRegressor dari modul     sklearn.neighbors. Model ini membandingkan jarak antara satu sampel dengan sampel pelatihan lainnya dan memilih sejumlah k tetangga terdekat untuk melakukan prediksi.
+    * Pada proyek ini, model K-Nearest Neighbors (KNN) digunakan dengan menggunakan kelas KNeighborsRegressor dari modul sklearn.neighbors. Model ini membandingkan jarak antara satu sampel dengan sampel pelatihan lainnya dan memilih sejumlah k tetangga terdekat untuk melakukan prediksi.
 
       Parameter yang dapat digunakan pada KNeighborsRegressor adalah:
         * n_neighbors = Jumlah k tetangga tedekat. 
@@ -227,35 +277,73 @@ Analisis ini dilakukan untuk melihat kolerasi antara fitur kategorik dengan fitu
 
       Dalam proyek ini, n_estimators, learning_rate, dan random_state dapat diatur sesuai kebutuhan dan karakteristik data untuk membangun model Adaboost yang optimal. Anda dapat menyesuaikan nilai-nilai ini untuk mengeksplorasi berbagai konfigurasi dan menemukan kombinasi yang menghasilkan kinerja terbaik.
 
-    * Hyperparameter Tuning (Grid Search) Hyperparameter tuning adalah cara untuk mendapatkan parameter terbaik dari algoritma dalam membangun model. Salah satu teknik dalam hyperparameter tuning yang digunakan dalam proyek ini adalah grid search. Berikut adalah hasil dari Grid Search pada proyek ini :
+    * Untuk mencapai keputusan tentang parameter terbaik untuk masing-masing algoritma, digunakan teknik Grid Search. Grid Search merupakan metode untuk mencari kombinasi terbaik dari hyperparameter dalam suatu model dengan mencoba semua kemungkinan kombinasi nilai hyperparameter yang didefinisikan sebelumnya. Dalam proyek ini, Grid Search digunakan untuk mencari kombinasi terbaik dari parameter-parameter seperti jumlah tetangga terdekat (n_neighbors) pada KNN, jumlah estimator (n_estimators) dan kedalaman maksimum (max_depth) pada Random Forest, serta jumlah estimator (n_estimators) dan learning rate pada Adaboost.
 
+      Dengan menggunakan Grid Search, model dapat dievaluasi dengan berbagai kombinasi parameter dan dipilih parameter terbaik yang menghasilkan performa model yang optimal, seperti akurasi yang tinggi atau MSE yang rendah. Grid Search memungkinkan eksplorasi sistematis dari ruang parameter dan membantu dalam menghindari pemilihan parameter secara acak yang dapat menghasilkan model yang tidak optimal.
+
+       Berikut adalah hasil dari Grid Search pada proyek ini :
+
+       **Tabel 1. Parameter terbaik dari masing-masing algoritma**
+      
       | Model | best_params |
       | ----------- | :---------: |
       | knn | {'n_neighbors': 3} | 
       | boosting | {'learning_rate': 0.001, 'n_estimators': 25, 'random_state': 33} | 
       | random_forest | {'max_depth': 8, 'n_estimators': 25, 'random_state': 77} |
 
+      Hasil Grid Search pada tabel 1 menunjukkan kombinasi parameter terbaik untuk masing-masing algoritma, yaitu K-Nearest Neighbors dengan 3 tetangga terbaik, Adaboost dengan learning_rate=0.001, n_estimators=25, dan random_state=33, serta Random Forest dengan max_depth=8, n_estimators=25, dan random_state=77. Penggunaan parameter terbaik ini diharapkan dapat meningkatkan kinerja dan akurasi model.
+
 ## **Evaluation**
 
 Dalam proyek ini, metrik evaluasi yang digunakan adalah akurasi dan mean squared error (MSE). Akurasi mengukur sejauh mana hasil prediksi cocok dengan nilai sebenarnya (y_test). Sedangkan MSE mengukur kesalahan dalam model statistik dengan menghitung rata-rata dari kuadrat selisih antara nilai aktual dan nilai prediksi. Berikut adalah rumus MSE:
 
-![MSE](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/ed033d35-9cf0-42b8-a290-40cb590c983b)
+$$ MSE = \sum \frac{(\hat{y} - y)^2}{n}$$
+
+$\hat{y}$ = Nilai Prediksi
+
+$y$ = Nilai Sebenarnya
+
+$n$ = Jumlah Data
 
 Berikut hasil evaluasi pada proyek ini :
 * Akurasi
-    
+
+  **Tabel 2. Akurasi dari masing-masing algoritma**
+  
   | Model | Akurasi |
   | ----------- | :---------: |
   | knn | 0.825527 | 
   | boosting | 0.902328 | 
   | random_forest | 0.933445 |
 
+  Pada tabel 2. Nilai akurasi menunjukkan sejauh mana model dapat memprediksi dengan benar harga sewa rumah berdasarkan karakteristik yang diberikan. Semakin tinggi nilai akurasi, semakin tinggi tingkat kesesuaian antara hasil prediksi model dengan nilai sebenarnya. Dalam konteks proyek ini, model Random Forest memiliki akurasi tertinggi (0.933445), yang berarti model ini mampu memprediksi harga sewa dengan tingkat kecocokan yang lebih tinggi dibandingkan dengan model KNN dan Adaboost.
+
 * Mean Squared Error (MSE)
 
   ![hasil pengujian](https://github.com/renaldipanji/house-rent-prediction-ml/assets/75974146/30056f77-030f-4ad2-98dd-d12f82e043d4)
 
-Dari hasil evaluasi, dapat disimpulkan bahwa model dengan algoritma Random Forest memiliki akurasi yang lebih tinggi dan tingkat error (MSE) yang lebih rendah dibandingkan dengan algoritma lain yang digunakan dalam proyek ini. Hal ini menunjukkan bahwa Random Forest memberikan performa yang lebih baik dalam memprediksi nilai target dibandingkan dengan algoritma lainnya yang telah diuji.
+  **Gambar 14. Visualisasi Perbandingan MSE dari masing-masing algoritma**
 
-Akurasi yang lebih tinggi menunjukkan bahwa model Random Forest memiliki tingkat kecocokan atau kesesuaian yang lebih tinggi antara hasil prediksi dan nilai sebenarnya. Sebagai hasilnya, model ini dapat memberikan hasil prediksi yang lebih akurat. Selain itu, tingkat error (MSE) yang lebih rendah menunjukkan bahwa model Random Forest cenderung memiliki kesalahan prediksi yang lebih kecil, sehingga lebih mendekati nilai sebenarnya.
+  Pada gambar 14 Nilai MSE mengukur seberapa dekat hasil prediksi dengan nilai sebenarnya dalam bentuk rata-rata error kuadrat. Semakin rendah nilai MSE, semakin kecil kesalahan prediksi yang dilakukan oleh model. Dalam konteks proyek ini, model Random Forest memiliki nilai MSE terendah, menunjukkan bahwa model ini memiliki tingkat kesalahan prediksi yang lebih kecil dan lebih mendekati nilai sebenarnya dibandingkan dengan model KNN dan Adaboost.
 
-Dengan demikian, berdasarkan evaluasi yang dilakukan, model dengan algoritma Random Forest dapat dianggap sebagai pilihan terbaik dalam proyek ini, karena mampu memberikan performa yang lebih baik dalam memprediksi harga sewa rumah.
+Hasil evaluasi yang menunjukkan bahwa model Random Forest memiliki akurasi yang tinggi dan MSE yang rendah berarti model tersebut mampu memprediksi harga sewa rumah dengan tingkat kecocokan yang tinggi dan tingkat kesalahan yang rendah. Hal ini sesuai dengan tujuan proyek untuk membangun model machine learning yang dapat memprediksi harga sewa yang sesuai dengan harga pasar. Dengan menggunakan model Random Forest, perusahaan penyewaan dapat menentukan harga sewa yang optimal, meningkatkan keuntungan, dan menghindari underpricing atau overpricing properti.
+
+Dengan demikian, hasil evaluasi yang menunjukkan keunggulan model Random Forest memberikan dukungan yang kuat terhadap tujuan proyek dan memberikan keyakinan bahwa penggunaan model ini akan memberikan manfaat yang signifikan bagi perusahaan penyewaan properti.
+
+## **Kesimpulan**
+
+Dalam proyek ini, model machine learning telah dikembangkan untuk memprediksi harga sewa rumah berdasarkan karakteristiknya. Model ini memberikan manfaat yang signifikan bagi perusahaan penyewaan properti dalam mengoptimalkan harga sewa, mengidentifikasi properti dengan potensi profitabilitas tinggi, dan menyesuaikan strategi pemasaran. Evaluasi model menunjukkan bahwa algoritma Random Forest memberikan performa yang lebih baik dengan akurasi yang tinggi dan tingkat error yang rendah.
+
+Dengan menggunakan model ini, perusahaan dapat menentukan harga sewa yang lebih optimal, meningkatkan keuntungan, dan membuat keputusan yang lebih informasi. Model ini juga memberikan wawasan berharga dalam identifikasi properti yang memiliki potensi profitabilitas tinggi dan membantu perusahaan dalam merancang strategi pemasaran yang efektif.
+
+Untuk pengembangan masa depan, disarankan untuk memperluas dataset, menambahkan fitur tambahan yang relevan, melakukan penyetelan hyperparameter yang lebih baik, dan terus memantau serta meningkatkan model sesuai kebutuhan. Dengan melakukan langkah-langkah ini, perusahaan dapat terus meningkatkan kinerja model dan mengoptimalkan manfaat yang diberikan.
+
+Secara keseluruhan, penggunaan model machine learning ini memberikan kontribusi yang berarti bagi perusahaan penyewaan properti dalam meningkatkan efisiensi, keuntungan, dan pengambilan keputusan yang lebih baik dalam bisnis penyewaan properti.
+
+## **Referensi**
+
+[1] E. F. Rahayuningtyas, F. N. Rahayu, and Y. Azhar, “Prediksi Harga rumah menggunakan general regression neural network,” Jurnal Informatika, vol. 8, no. 1, pp. 59–66, 2021. doi:10.31294/ji.v8i1.9036
+
+[2] I. Maula, L. U. Hasanah, and A. Tholib, “Analisis prediksi Harga Rumah di Jabodetabek Menggunakan multiple linear regression,” Jurnal Informatika Kaputama (JIK), vol. 7, no. 2, pp. 216–224, 2023. doi:10.59697/jik.v7i2.135 
+
+[3] M. L. Mu’tashim, T. Muhayat, S. A. Damayanti, H. N. Zaki, and R. Wirawan, “Analisis Prediksi Harga Rumah Sesuai spesifikasi Menggunakan Multiple Linear Regression,” Informatik : Jurnal Ilmu Komputer, vol. 17, no. 3, p. 238, 2021. doi:10.52958/iftk.v17i3.3635 
